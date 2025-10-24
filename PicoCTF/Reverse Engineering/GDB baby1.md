@@ -47,7 +47,8 @@ No symbol table is loaded. Use the "file" command.
 $1 = 549698
 (gdb)
 ```
-<img width="1076" height="642" alt="Screenshot 2025-10-24 212201" src="https://github.com/user-attachments/assets/c8cdef0d-ba24-4d9d-b6b2-71e102bdb108" />
+<img width="821" height="797" alt="Screenshot 2025-10-24 212213" src="https://github.com/user-attachments/assets/4aff208b-d584-40b5-828e-94ad87d85644" />
+
 
 
 ## Flag:
