@@ -3,28 +3,31 @@
 For what argument does this program print `win` with variables 68, 2 and 3? File: chall_1.S Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
 
 ## Solution:
+first we made the space for the stack variables. stack + 16 we moved 68 stack +16 moved 2 stack +24 moved 3.
+load 2 in w0 and load 68 in w1
+lsl left bit shift operator. shifter 2 bits towards left from 68 ans=272 and load this in stack +28
+load 272 in w1 and load 3 in w0
+sdiv operator to divide 272/3 ans= 90
+laod 90 in w1 and user input in w0
+in main function we see cmp compare if w0 is not zero then it goes to .L4 which takes us to .l0 and we lose hence we want w0 to be zero
+hence 90-0 =90
+convert to hexadecimal 0x5A
 
-- Include as many steps as you can with your thought process
-- You **must** include images such as screenshots wherever relevant.
 
-```
-put codes & terminal outputs here using triple backticks
 
-you may also use ```python for python codes for example
-```
 
 ## Flag:
 
 ```
-picoCTF{}
+picoCTF{0000005a}
 ```
 
 ## Concepts learnt:
 
-- Include the new topics you've come across and explain them in brief
-- 
+- learned how to read assembly language 
 
 ## Notes:
 
-- Include any alternate tangents you went on while solving the challenge, including mistakes & other solutions you found.
-- 
+- lsl left bit shift
+- sdiv for division
+- sub for subtraction
