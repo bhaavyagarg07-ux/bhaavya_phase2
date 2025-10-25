@@ -24,9 +24,6 @@ picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
 
 ## Concepts learnt:
 
-- 
-- 
+- Wireshark is a free and open-source network protocol analyzer used to capture and inspect live network traffic or analyze saved capture files
+- using tftp.type we can filter out the tftp files which has "type" field like read write data error etc
 
-## Notes:
-
-- 
