@@ -23,22 +23,20 @@ changed the height to around 850 (before that i tried random numbers 1000 but it
 ## Flag:
 
 ```
-picoCTF{}
+picoCTF{qu1t3_a_v13w_2020}
+
 ```
 
 ## Concepts learnt:
 
-- Include the new topics you've come across and explain them in brief
-- 
-
-## Notes:
-
-- Include any alternate tangents you went on while solving the challenge, including mistakes & other solutions you found.
-- 
+- how hex editor works
+- how to identify file type
 
 ## Resources:
 
-- Include the resources you've referred to with links. [example hyperlink](https://google.com)
+- https://i.sstatic.net/gD3iX.jpg
+
+
 
 
 
