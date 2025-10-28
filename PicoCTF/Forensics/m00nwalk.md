@@ -20,5 +20,5 @@ picoCTF{beep_boop_im_in_space}
 - how sstv can be used to decode audio to images
 
 
-- Include the resources you've referred to with links. [example hyperlink](https://google.com)
+
 
