@@ -16,10 +16,13 @@ i used `memdump`
 <img width="1714" height="130" alt="Screenshot 2025-12-06 183602" src="https://github.com/user-attachments/assets/5f936cf8-5087-4a02-a3dc-cae68be882d1" />
 I renamed the file with .data extension and opened it in GIMP as raw data
 Changed offest and dimesnsions and got the next flag
+<img width="1048" height="371" alt="Screenshot 2025-12-07 204301" src="https://github.com/user-attachments/assets/5d95c4de-9a1e-4c51-81fa-6725698e2667" />
+
 ![WhatsApp Image 2025-12-06 at 19 24 39_4f3b2a31](https://github.com/user-attachments/assets/0e8fea77-9d36-424c-8a7d-3765245aa408)
 ### Part 3 - using winRAR
 <img width="1698" height="169" alt="Screenshot 2025-12-07 203335" src="https://github.com/user-attachments/assets/607a9d1f-8ce6-49d0-8213-eaaef978ad5f" />
-I then dumped Important.rar file using `╰─ ./volatility_2.6_lin64_standalone -f MemoryDump_Lab1.raw --profile=Win7SP1x64 dumpfiles -Q 0x000000003eb0b770 -D ./output`
+I then dumped Important.rar file using 
+` ./volatility_2.6_lin64_standalone -f MemoryDump_Lab1.raw --profile=Win7SP1x64 dumpfiles -Q 0x000000003eb0b770 -D ./output`
 Then i unrar it it had a locked file flag3.png with a password
 I looked into docs again and found `hashdump` which can give me hashes of various accounts
 <img width="1669" height="214" alt="Screenshot 2025-12-06 184821" src="https://github.com/user-attachments/assets/9b23fefc-be20-41ce-8dbe-a51010a18dbd" />
